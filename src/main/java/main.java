@@ -13,6 +13,6 @@ public class main {
         triangle.b= scanner.nextDouble();
         System.out.print("Введите длину третьей стороны: ");
         triangle.c= scanner.nextDouble();
-        triangle.area();
+        triangle.area(); 
     }
 }

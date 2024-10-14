@@ -4,6 +4,6 @@ public class Triangle {
         double p = (a + b + c) / 2;
 
         double area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-        System.out.println(area);
+        System.out.println("Площадь треугольника: " +area);
     }
 }
