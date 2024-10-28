@@ -19,7 +19,7 @@ public static void method() {
     System.out.println("aianty:" + country2.getAianty());
     System.out.println("--------------------------------");
 
-    Country country3 = new Country("India", "8990000", "Indian", 93343);
+    Country country3 = new Country("India", "8990000", "Indian", 4593343);
     System.out.println("Name:" + country3.getName());
     System.out.println("Kalky:" + country3.getKalky());
     System.out.println("tili:" + country3.getTili());
@@ -28,6 +28,6 @@ public static void method() {
 
     Country[] countries = {country1, country2, country3};
 
-    Country max = Country.countries(countries);
-    System.out.println("Эң чоң аянттуу өлкө: " + max.getName() + " Аянты: " + max.getAianty());}
+    Country min = Country.country(countries);
+    System.out.println("Эң чоң аянттуу өлкө: " + min.getName() + " Аянты: " + min.getAianty());}
 }

@@ -28,14 +28,14 @@ public class Country {
         return aianty;
     }
 
-    public static Country countries(Country[] countries){
-       Country max=countries[0];
-        for (Country country:countries) {
-        if(country.aianty> max.getAianty()){
-            max=country;
-        }
-        }
-return max;
-    }
+ public static Country country(Country[] countries){
+        Country max=countries[0];
+     for (Country country:countries) {
+         if (country.getAianty()> max.getAianty()){
+             max=country;
+         }
+     }
+     return max;
+ }
 
 }
